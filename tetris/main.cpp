@@ -8,7 +8,6 @@ int main() {
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
-		DrawText("TETRIS", 350, 350, 20, BLACK);
 		EndDrawing();
 	}
 
