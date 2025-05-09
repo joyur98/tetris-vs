@@ -1,13 +1,22 @@
 #include "raylib.h"
+#include "grid.h"
 
 
 int main() {
 
-	InitWindow(750, 750, "TETRIS");
+	InitWindow(375, 750, "TETRIS");
+	
+	//sets the fps of the game
+	SetTargetFPS(60);
+
+	Grid grid = Grid();
 
 	while (!WindowShouldClose()) {
 		BeginDrawing();
-		ClearBackground(RAYWHITE);
+		
+		grid.Draw();
+		
+		
 		EndDrawing();
 	}
 
