@@ -8,6 +8,7 @@ Block::Block(){
 }
 
 void Block::Draw() {
+
 	std::vector<Position> tiles = cells[rotation_state];
 
 	for (Position item : tiles) {
