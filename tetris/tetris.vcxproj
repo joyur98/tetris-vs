@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blocks.cpp" />
     <ClCompile Include="colors.cpp" />
     <ClCompile Include="grid.cpp" />
     <ClCompile Include="main.cpp" />
