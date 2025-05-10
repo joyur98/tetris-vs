@@ -7,6 +7,7 @@
 class Block {
 public:
 	Block();
+	void Draw();
 
 	//id is the id of the block
 	int id;
