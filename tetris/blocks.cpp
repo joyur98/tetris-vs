@@ -1,7 +1,9 @@
 #include "block.h"
 #include "position.h"
+#include "block.cpp"
 
 class LBlock : public Block {
+
 public:
 	LBlock() {
 		id = 1;
