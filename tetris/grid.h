@@ -12,8 +12,7 @@ public:
 	int grid[30][15];
 private:
 
-	//this method returns a vector of colors for the different blocks
-	std::vector<Color> GetCellColors();
+
 
 
 	int num_rows;
