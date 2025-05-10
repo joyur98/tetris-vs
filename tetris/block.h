@@ -2,6 +2,7 @@
 #include <vector>
 #include <map>
 #include "position.h"
+#include "colors.h"
 
 class Block {
 public:
@@ -16,9 +17,6 @@ public:
 private:
 	int cell_size;
 	int rotation_state;
-
-
-
-private:
+	std::vector<Color> colors;
 
 };
