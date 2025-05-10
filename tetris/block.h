@@ -6,8 +6,14 @@
 
 class Block {
 public:
+
 	Block();
+	
 	void Draw();
+
+	void Move(int rows, int cols);
+
+	std::vector<Position> GetCellPosition();
 
 	//id is the id of the block
 	int id;
@@ -19,5 +25,6 @@ private:
 	int cell_size;
 	int rotation_state;
 	std::vector<Color> colors;
-
+	int row_offset;
+	int col_offset;
 };
